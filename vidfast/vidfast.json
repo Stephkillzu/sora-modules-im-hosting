@@ -1,1 +1,27 @@
-
+{
+  "sourceName": "VidFastSteph",
+  "iconUrl": "https://url.to/icon.png",
+  "author": {
+    "name": "StephKillzU",
+    "icon": "https://raw.githubusercontent.com/Stephkillzu/sora-modules-im-hosting/refs/heads/main/vidfast/icon.png"
+  },
+  "version": "1.2.4",
+  "language": "English",
+  "baseUrl": "https://vidfast.vc/",
+  "searchBaseUrl": "https://api.themoviedb.org/3/search/multi?api_key=059a6e8bf8fee916db27ac2e6a5ec509&query=%s",
+  "scriptUrl": "https://raw.githubusercontent.com/Stephkillzu/sora-modules-im-hosting/refs/heads/main/vidfast/vidfast.js",
+  "type": "shows/movies/anime",            // Options: "anime" | "mangas" | "novels"
+  "streamType": "HLS",        // Options: "HLS" | "mangas" | "novels"
+  "asyncJS": true,            // Always true
+  "quality": "1080p",         // Optional metadata
+  "downloadSupport": true,    // Boolean toggle
+  "softsub": true,            // Optional (Anime specific, always true for now)
+  "novel": false,              // Optional (Novel specific)
+  "supportsSora": true,       // Compatibility flags
+  "supportsLuna": true,
+  "supportsDartotsu": true,
+  "supportsAnymex": true,
+  "supportsTsumi": true,
+  "supportsHiyoku": true,
+  "supportsShirox": true,
+  "supportsMojuru": true
